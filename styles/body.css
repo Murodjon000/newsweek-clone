@@ -1,0 +1,28 @@
+.card_header {
+   color: var(--gray-400);
+}
+
+.image_container img {
+    position: relative;
+}
+.image_container .after {
+    position: absolute;  
+    bottom:0;
+    left:0;
+}
+
+.card_1 p {
+    font-size: 12px;
+}
+.card_1 a {
+    text-decoration: none;
+    color: black;
+}
+.card_1 a:hover{
+  text-decoration: underline;
+  text-decoration-color: var(--red);
+} 
+
+.anchor_text {
+    font-size: 1.2rem;
+}
