@@ -1,4 +1,8 @@
-.header__box {
+body {
+  background-color: var(--gray-1000);
+}
+
+.container {
   max-width: 1310px;
 }
 
@@ -7,12 +11,7 @@
 }
 .nav-2 {
   min-height: 95px;
-}
-
-.header__text {
-  font-size: 1.8rem;
-  color: white;
-  font-weight: 700;
+  position: relative;
 }
 
 .icon {
@@ -30,12 +29,31 @@ svg {
   fill: white;
 }
 
+.header__before1 {
+  position: relative;
+  background-color: white;
+}
+
+.header__before::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 90px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
 .header__bottom {
-  border-bottom: 1px solid #d4d4d8;
+  width: 100%;
+  border-bottom: 1px solid var(--gray-300);
 }
 
 .header__bottom > a {
-  font-size: 1.3rem;
+  font-size: 19px;
+  line-height: 24px;
   text-decoration: none;
 }
 
@@ -44,15 +62,31 @@ svg {
 }
 
 .header__bottom > span {
-  color: lightgray;
+  color: var(--gray-200);
 }
 
 .search > a {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.55);
 }
 
 .search > i {
   font-size: 1rem;
+}
+
+.bottom2 > a {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--gray-400);
+  text-decoration: none;
+  font-weight: 500;
+}
+.bottom2 {
+  background-color: white;
+  border-bottom: 1px solid var(--gray-300);
+}
+
+.bottom2 > a:hover {
+  color: var(--red);
 }

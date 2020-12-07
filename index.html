@@ -15,16 +15,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/variable.css" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/backgroun.css" />
   </head>
   <body>
-    <header>
-      <div class="header__box mx-auto">
-        <nav
+    <header class="mx-auto">
+      <div class="container">
+        <div
           class="d-flex justify-content-between align-items-center px-2 d-lg-none d-xl-none nav-1 background-red"
         >
-          <a class="">
+          <a href="#">
             <svg
               class="fill-white"
               version="1.1"
@@ -62,8 +63,8 @@
               <i class="icon fas fa-bars"></i>
             </button>
           </div>
-        </nav>
-        <nav
+        </div>
+        <div
           class="d-none d-lg-flex d-xl-flex justify-content-between align-items-center px-2 py-2 nav-2 background-red"
         >
           <div class="d-flex flex-column text-white px-2">
@@ -99,7 +100,6 @@
               </svg>
             </a>
           </div>
-
           <div>
             <button class="text-uppercase text-white font-weight-bold">
               Login
@@ -108,38 +108,50 @@
               Subscribe >
             </button>
           </div>
-        </nav>
-        <div class="d-none d-lg-flex d-xl-flex flex-column">
-          <div
-            class="d-flex font-weight-bold text-lg header__bottom py-2 align-items-center"
-          >
-            <a href="#" class="px-2">U.S.</a>
-            <span>|</span>
-            <a href="#" class="px-2">World</a>
-            <span>|</span>
-            <a href="#" class="px-2">Bussiess</a>
-            <span>|</span>
-            <a href="#" class="px-2">Tech & Science</a>
-            <span>|</span>
-            <a href="#" class="px-2">Culture</a>
-            <span>|</span>
-            <a href="#" class="px-2">Newsgeek</a>
-            <span>|</span>
-            <a href="#" class="px-2">Sports</a>
-            <span>|</span>
-            <a href="#" class="px-2">Health</a>
-            <span>|</span>
-            <a href="#" class="px-2">The-Debate</a>
-            <span>|</span>
-            <a href="#" class="px-2">Vantage</a>
-            <span>|</span>
-            <a href="#" class="px-2">Weather</a>
-            <div class="search d-flex align-items-center">
-              <a href="#" class="px-2 font-weight-normal">Search</a>
-              <i class="fas fa-search px-2"></i>
+        </div>
+        <nav class="header__before1 d-none d-lg-flex d-xl-flex">
+          <div class="w-100">
+            <div
+              class="header__before d-none d-lg-flex d-xl-flex font-weight-bold header__bottom py-3 align-items-center w-100"
+            >
+              <a href="#" class="px-2">U.S.</a>
+              <span>|</span>
+              <a href="#" class="px-2">World</a>
+              <span>|</span>
+              <a href="#" class="px-2">Bussiess</a>
+              <span>|</span>
+              <a href="#" class="px-2">Tech & Science</a>
+              <span>|</span>
+              <a href="#" class="px-2">Culture</a>
+              <span>|</span>
+              <a href="#" class="px-2">Newsgeek</a>
+              <span>|</span>
+              <a href="#" class="px-2">Sports</a>
+              <span>|</span>
+              <a href="#" class="px-2">Health</a>
+              <span>|</span>
+              <a href="#" class="px-2">The-Debate</a>
+              <span>|</span>
+              <a href="#" class="px-2">Vantage</a>
+              <span>|</span>
+              <a href="#" class="px-2">Weather</a>
+              <div class="search d-flex align-items-center">
+                <a href="#" class="px-2 font-weight-normal">Search</a>
+                <i class="fas fa-search px-2"></i>
+              </div>
             </div>
           </div>
-        </div>
+        </nav>
+        <nav class="d-none d-lg-flex d-xl-flex">
+          <div class="bottom2 w-100 py-2">
+            <a href="#" class="text-uppercase px-2 text-dark">Trending</a>
+            <a href="#" class="text-uppercase px-2">Joe Biden</a>
+            <a href="#" class="text-uppercase px-2">Donald Trump</a>
+            <a href="#" class="text-uppercase px-2">2020 Election</a>
+            <a href="#" class="text-uppercase px-2">Coronavirus</a>
+            <a href="#" class="text-uppercase px-2">Stimulus Package</a>
+          </div>
+        </nav>
       </div>
     </header>
   </body>

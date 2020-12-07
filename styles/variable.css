@@ -1,4 +1,5 @@
 :root {
+  --font-family-default: inter;
   --red: #f72210;
   --yellow: #ffe400;
   --gray-50: #f7f7f7;
@@ -9,4 +10,5 @@
   --gray-700: #3f3f46;
   --gray-800: #1e293b;
   --gray-900: #18181b;
+  --gray-1000: #f4f5f6;
 }
