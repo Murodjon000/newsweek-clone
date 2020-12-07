@@ -1,0 +1,58 @@
+.header__box {
+  max-width: 1310px;
+}
+
+.nav-1 {
+  min-height: 50px;
+}
+.nav-2 {
+  min-height: 95px;
+}
+
+.header__text {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 700;
+}
+
+.icon {
+  font-size: 1.1rem;
+  color: #f2f2f2;
+}
+
+.sub__button {
+  background-color: var(--yellow);
+  border-radius: 24px;
+  font-weight: 900;
+}
+
+svg {
+  fill: white;
+}
+
+.header__bottom {
+  border-bottom: 1px solid #d4d4d8;
+}
+
+.header__bottom > a {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.header__bottom > a:hover {
+  color: var(--red);
+}
+
+.header__bottom > span {
+  color: lightgray;
+}
+
+.search > a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.search > i {
+  font-size: 1rem;
+}
