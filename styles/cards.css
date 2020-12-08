@@ -38,3 +38,7 @@
   border-radius: 50%;
   text-align: center;
 }
+
+.op__image {
+  max-width: fit-content;
+}
