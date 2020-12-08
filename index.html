@@ -16,9 +16,11 @@
     />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/body.css" />
+    <link rel="stylesheet" href="./styles/cards.css" />
     <link rel="stylesheet" href="./styles/variable.css" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/backgroun.css" />
+    <link rel="stylesheet" href="./styles/typo.css" />
   </head>
   <body>
     <header>
@@ -154,24 +156,347 @@
         </nav>
       </div>
     </header>
-    <main class="d-md-flex container mx-auto">
-      <div class="cards">
-        <div class="card_1 bg-white p-3 w-100">
-          <div class="card_header pb-2 font-weight-bold">
-            <h1>TOP STORY</h1>
+    <main class="">
+      <div class="d-md-flex">
+        <div class="cards">
+          <div class="card_1 bg-white p-3 w-100">
+            <div class="card_header pb-2 font-weight-bold">
+              <h1>TOP STORY</h1>
+            </div>
+            <div class="image_container w-100">
+              <a href="#">
+                <img
+                  class="w-100"
+                  src="images/donald-trump-georgia-loeffler-perdue-senate-republican.webp"
+                  alt="top story"
+                />
+              </a>
+              <div class="category d-block">
+                <a href="#" class="after text-uppercase font-weight-bold"
+                  >POLITICS</a
+                >
+              </div>
+            </div>
+            <a href="#" class="anchor_text font-weight-bold my-4"
+              >Loeffler Declines to Defend Her Ally Governor Kemp From Trump's
+              Attacks</a
+            >
+            <p>
+              Moderators asked the incumbent Georgia Republican senator if she
+              supported Trump's attacks on Kemp three separate times during
+              Sunday's debate.
+            </p>
           </div>
+        </div>
+        <div class="cards mt-3">
+          <div class="card_1 bg-white p-3 w-100">
+            <div class="card_header pb-2 font-weight-bold">
+              <h1 class="text-uppercase">Featured Story</h1>
+            </div>
+            <div class="image_container w-100">
+              <a href="#">
+                <img
+                  class="w-100"
+                  src="images/brad-raffensperger-georgia-secretary-state.jpg"
+                  alt="top story"
+                />
+              </a>
+              <div class="category d-block">
+                <a href="#" class="after text-uppercase font-weight-bold"
+                  >U.S.</a
+                >
+              </div>
+            </div>
+            <a href="#" class="anchor_text font-weight-bold my-4"
+              >Brandon Bernard to Be Executed, Jurors Urge Trump to Commute
+              Sentence</a
+            >
+            <p>
+              Bernard was 18 when he was convicted over the 1999 kidnapping and
+              murder of youth ministers Todd and Stacie Bagley at Fort Hood in
+              Texas.
+            </p>
+          </div>
+          <div class="card_1 bg-white p-3 w-100">
+            <div class="image_container w-100">
+              <a href="#">
+                <img
+                  class="w-100"
+                  src="images/mark-warner-speaks-bipartisan-senator-group.webp"
+                  alt="top story"
+                />
+              </a>
+              <div class="category d-block">
+                <a href="#" class="after text-uppercase font-weight-bold"
+                  >POLITICS</a
+                >
+              </div>
+            </div>
+            <a href="#" class="anchor_text font-weight-bold my-4"
+              >Team Trump Tries to Play Down Fears Giuliani Exposed Hundreds to
+              COVID-19</a
+            >
+            <p>
+              President Donald Trump's lawyer is infected with COVID-19 and
+              reportedly in hospital after traveling to several states and
+              meeting with lawmakers about the 2020 election.
+            </p>
+          </div>
+          <div class="card_1 bg-white p-3 w-100">
+            <div class="image_container w-100">
+              <a href="#">
+                <img
+                  class="w-100"
+                  src="images/covid-19-funeral-new-mexico-december-2020.webp"
+                  alt="top story"
+                />
+              </a>
+              <div class="category d-block">
+                <a href="#" class="after text-uppercase font-weight-bold"
+                  >News</a
+                >
+              </div>
+            </div>
+            <a href="#" class="anchor_text font-weight-bold my-4"
+              >More Americans Could Die of COVID Today than Were Killed at Pearl
+              Harbor</a
+            >
+            <p>
+              Up to 19,500 new COVID-19 deaths are likely to be reported in the
+              week ending December 26, according to forecasts received by the
+              U.S. Centers for Disease Control and Prevention.
+            </p>
+          </div>
+          <div class="card_1 bg-white p-3 w-100">
+            <div class="image_container w-100">
+              <a href="#">
+                <img
+                  class="w-100"
+                  src="images/mark-warner-speaks-bipartisan-senator-group.webp"
+                  alt="top story"
+                />
+              </a>
+              <div class="category d-block">
+                <a href="#" class="after text-uppercase font-weight-bold"
+                  >News</a
+                >
+              </div>
+            </div>
+            <a href="#" class="anchor_text font-weight-bold my-4"
+              >Prince Harry Sues Tabloid for Libel—in Couple's Sixth Lawsuit in
+              a Year</a
+            >
+            <p>
+              Prince Harry has filed a libel lawsuit against the same U.K.
+              newspaper publisher that wife Meghan Markle is separately suing
+              over a letter she sent to her father, Newsweek can reveal.
+            </p>
+          </div>
+        </div>
+
+        <div class="debate my-3 p-3 bg-white">
+          <div class="py-3">
+            <a href="#" class="text-uppercase font-weight-bold text-gray">
+              The Debate
+            </a>
+          </div>
+          <div class="debate__middle d-sm-flex align-items-center">
+            <a href="#">
+              <img
+                src="https://d.newsweek.com/en/full/1591836/jonathan-tobin.png?w=63&amp;h=63&amp;f=3de733b09b3c97b87933e4368ae4e559"
+                alt="Jonathan Tobin"
+                title="Jonathan Tobin"
+                width="63"
+                height="63"
+                loading="lazy"
+              />
+            </a>
+            <div
+              class="middle__info d-sm-flex flex-column align-items-start px-3"
+            >
+              <a href="#" class="font-weight-bold">Should Trump Concede? Yes</a>
+              <div class="">
+                <span>By</span>
+                <a href="#" class="font-weight-bold">Jonathan Tobin</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="line__deco">
+            <div
+              class="vs-text mx-auto bg-dark text-center d-flex align-items-center justify-content-center"
+            >
+              VS
+            </div>
+          </div>
+
+          <div
+            class="debate__middle1 d-sm-flex align-items-center justify-content-between pb-2"
+          >
+            <div class="middle__info d-sm-flex flex-column align-items-start">
+              <a href="#" class="font-weight-bold">Should Trump Concede? Yes</a>
+              <div class="">
+                <span>By</span>
+                <a href="#" class="font-weight-bold">Jonathan Tobin</a>
+              </div>
+            </div>
+            <a href="#">
+              <img
+                src="https://d.newsweek.com/en/full/1611078/spencer-klavan.png?w=63&amp;h=63&amp;f=50a9e9cc8ef45fd2d3ac21f96eb0bd9f"
+                alt="Spencer Klavan"
+                title="Spencer Klavan"
+                width="63"
+                height="63"
+                loading="lazy"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="opinion bg-white p-3">
+          <div class="py-3">
+            <a href="#" class="text-uppercase font-weight-bold text-gray">
+              Opinion
+            </a>
+          </div>
+          <div class="opinion__middle d-sm-flex align-items-center">
+            <a href="#">
+              <img
+                src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&amp;h=63&amp;f=297351a03eaa549128026042394c9580"
+                alt="Robert Reich"
+                title="Robert Reich"
+                width="63"
+                height="63"
+                loading="lazy"
+              />
+            </a>
+            <div
+              class="middle__info d-sm-flex flex-column align-items-start px-1"
+            >
+              <a href="#" class="font-weight-bold"
+                >Biden Says He'll Take on Structural Inequality. You Need to
+                Hold Him to It</a
+              >
+              <div class="">
+                <span>By</span>
+                <a href="#" class="font-weight-bold">Jonathan Tobin</a>
+              </div>
+            </div>
+          </div>
+          <div class="opinion__middle d-sm-flex align-items-center">
+            <a href="#">
+              <img
+                src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&amp;h=63&amp;f=297351a03eaa549128026042394c9580"
+                alt="Robert Reich"
+                title="Robert Reich"
+                width="63"
+                height="63"
+                loading="lazy"
+              />
+            </a>
+            <div
+              class="middle__info d-sm-flex flex-column align-items-start px-3"
+            >
+              <a href="#" class="font-weight-bold"
+                >Biden Says He'll Take on Structural Inequality. You Need to
+                Hold Him to It</a
+              >
+              <div class="">
+                <span>By</span>
+                <a href="#" class="font-weight-bold">Jonathan Tobin</a>
+              </div>
+            </div>
+          </div>
+          <div class="opinion__middle d-sm-flex align-items-center">
+            <a href="#">
+              <img
+                src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&amp;h=63&amp;f=297351a03eaa549128026042394c9580"
+                alt="Robert Reich"
+                title="Robert Reich"
+                width="63"
+                height="63"
+                loading="lazy"
+              />
+            </a>
+            <div
+              class="middle__info d-sm-flex flex-column align-items-start px-3"
+            >
+              <a href="#" class="font-weight-bold"
+                >Biden Says He'll Take on Structural Inequality. You Need to
+                Hold Him to It</a
+              >
+              <div class="">
+                <span>By</span>
+                <a href="#" class="font-weight-bold">Jonathan Tobin</a>
+              </div>
+            </div>
+          </div>
+          <div class="opinion__middle d-sm-flex align-items-center">
+            <a href="#">
+              <img
+                src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&amp;h=63&amp;f=297351a03eaa549128026042394c9580"
+                alt="Robert Reich"
+                title="Robert Reich"
+                width="63"
+                height="63"
+                loading="lazy"
+              />
+            </a>
+            <div
+              class="middle__info d-sm-flex flex-column align-items-start px-3"
+            >
+              <a href="#" class="font-weight-bold"
+                >Biden Says He'll Take on Structural Inequality. You Need to
+                Hold Him to It</a
+              >
+              <div class="">
+                <span>By</span>
+                <a href="#" class="font-weight-bold">Jonathan Tobin</a>
+              </div>
+            </div>
+          </div>
+          <div class="opinion__middle1 d-sm-flex  align-items-center">
+            <a href="#">
+              <img
+                src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&amp;h=63&amp;f=297351a03eaa549128026042394c9580"
+                alt="Robert Reich"
+                title="Robert Reich"
+                width="63"
+                height="63"
+                loading="lazy"
+              />
+            </a>
+            <div
+              class="middle__info d-sm-flex flex-column align-items-start px-3"
+            >
+              <a href="#" class="font-weight-bold"
+                >Biden Says He'll Take on Structural Inequality. You Need to
+                Hold Him to It</a
+              >
+              <div class="">
+                <span>By</span>
+                <a href="#" class="font-weight-bold">Jonathan Tobin</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="card_box bg-white mt-3">
+         <div class="card-body p-3 ">
           <div class="image_container w-100">
-            <img
-              class="w-100"
-              src="images/donald-trump-georgia-loeffler-perdue-senate-republican.webp"
-              alt="top story"
-            />
-            <div class="category d-block">
-              <a href="#" class="after text-uppercase font-weight-bold"
-                >POLITICS</a
+            <a href="#">
+              <img
+                class="w-100"
+                src="images/donald-trump-georgia-loeffler-perdue-senate-republican.webp"
+                alt="top story"
+              />
+            </a>
+            <div class="category d-block color__blue">
+              <a href="#" class="after text-uppercase text-primaryfont-weight-bold"
+                >SPONSORED INSIGHT</a
               >
             </div>
           </div>
+          <div class="info_card p-3">
           <a href="#" class="anchor_text font-weight-bold my-4"
             >Loeffler Declines to Defend Her Ally Governor Kemp From Trump's
             Attacks</a
@@ -182,108 +507,8 @@
             Sunday's debate.
           </p>
         </div>
-      </div>
-      <div class="cards my-3">
-        <div class="card_1 bg-white  p-3 w-100">
-          <div class="card_header pb-2 font-weight-bold">
-            <h1 class="text-uppercase">Featured Story</h1>
-          </div>
-          <div class="image_container w-100">
-            <img
-              class="w-100"
-              src="images/brad-raffensperger-georgia-secretary-state.jpg"
-              alt="top story"
-            />
-            <div class="category d-block">
-              <a href="#" class="after text-uppercase font-weight-bold">U.S.</a>
-            </div>
-          </div>
-          <a href="#" class="anchor_text font-weight-bold my-4"
-            >Brandon Bernard to Be Executed, Jurors Urge Trump to Commute
-            Sentence</a
-          >
-          <p>
-            Bernard was 18 when he was convicted over the 1999 kidnapping and
-            murder of youth ministers Todd and Stacie Bagley at Fort Hood in
-            Texas.
-          </p>
-        </div>
-        <div class="card_1 bg-white p-3 w-100">
-          <div class="image_container w-100">
-            <img
-              class="w-100"
-              src="images/mark-warner-speaks-bipartisan-senator-group.webp"
-              alt="top story"
-            />
-            <div class="category d-block">
-              <a href="#" class="after text-uppercase font-weight-bold"
-                >POLITICS</a
-              >
-            </div>
-          </div>
-          <a href="#" class="anchor_text font-weight-bold my-4"
-            >Team Trump Tries to Play Down Fears Giuliani Exposed Hundreds to
-            COVID-19</a
-          >
-          <p>
-            President Donald Trump's lawyer is infected with COVID-19 and
-            reportedly in hospital after traveling to several states and meeting
-            with lawmakers about the 2020 election.
-          </p>
-        </div>
-        <div class="card_1 bg-white p-3 w-100">
-          <div class="image_container w-100">
-            <img
-              class="w-100"
-              src="images/covid-19-funeral-new-mexico-december-2020.webp"
-              alt="top story"
-            />
-            <div class="category d-block">
-              <a href="#" class="after text-uppercase font-weight-bold">News</a>
-            </div>
-          </div>
-          <a href="#" class="anchor_text font-weight-bold my-4"
-            >More Americans Could Die of COVID Today than Were Killed at Pearl
-            Harbor</a
-          >
-          <p>
-            Up to 19,500 new COVID-19 deaths are likely to be reported in the
-            week ending December 26, according to forecasts received by the U.S.
-            Centers for Disease Control and Prevention.
-          </p>
-        </div>
-        <div class="card_1 bg-white p-3 w-100">
-          <div class="image_container w-100">
-            <img
-              class="w-100"
-              src="images/mark-warner-speaks-bipartisan-senator-group.webp"
-              alt="top story"
-            />
-            <div class="category d-block">
-              <a href="#" class="after text-uppercase font-weight-bold">News</a>
-            </div>
-          </div>
-          <a href="#" class="anchor_text font-weight-bold my-4"
-            >Prince Harry Sues Tabloid for Libel—in Couple's Sixth Lawsuit in a
-            Year</a
-          >
-          <p>
-            Prince Harry has filed a libel lawsuit against the same U.K.
-            newspaper publisher that wife Meghan Markle is separately suing over
-            a letter she sent to her father, Newsweek can reveal.
-          </p>
         </div>
       </div>
-      <div class="debate bg-white">
-        <div class="debate_header font-weight-bold">
-          <a href="#">The Debate</a>
-        </div>
-        <hr>
-        <div class="debate_images">
-          <img src="https://d.newsweek.com/en/full/1591836/jonathan-tobin.png?w=63&h=63&f=3de733b09b3c97b87933e4368ae4e559" alt="jonathan">
-           <hr>
-           <img src="https://d.newsweek.com/en/full/1611078/spencer-klavan.png?w=63&h=63&f=50a9e9cc8ef45fd2d3ac21f96eb0bd9f" alt="">
-        </div>
       </div>
     </main>
   </body>

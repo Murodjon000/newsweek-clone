@@ -9,26 +9,48 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  color: var(--red) !important;
+  color: var(--red);
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 1;
+  text-decoration: none !important;
 }
 
 .card_1 p {
   font-size: 12px;
 }
-
-.card_1 a {
+.card_1 .anchor_text {
   text-decoration: none;
   color: black;
 }
-
-.card_1 a:hover {
+.card_1 .anchor_text:hover {
   text-decoration: underline;
   text-decoration-color: var(--red);
 }
 
 .anchor_text {
   font-size: 1.2rem;
+}
+
+.debate__middle {
+  border-top: 4px solid var(--border-gray);
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+.debate__middle1 {
+  border-bottom: 4px solid var(--border-gray);
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+.opinion__middle {
+  padding-top: 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border-gray);
+}
+
+.opinion__middle1 {
+  padding-top: 10px;
+  padding-bottom: 4px;
 }
