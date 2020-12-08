@@ -18,10 +18,12 @@
 .card_1 p {
   font-size: 12px;
 }
+
 .card_1 a {
   text-decoration: none;
   color: black;
 }
+
 .card_1 a:hover {
   text-decoration: underline;
   text-decoration-color: var(--red);
