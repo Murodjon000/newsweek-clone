@@ -4,3 +4,9 @@
 .background-yellow {
   background-color: var(--yellow);
 }
+
+@media only screen and (min-width: 768px) {
+  .md\:full-white {
+    background-color: white;
+  }
+}

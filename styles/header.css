@@ -2,7 +2,7 @@ body {
   background-color: var(--gray-1000);
 }
 
-.container {
+.container-box {
   max-width: 1310px;
 }
 
