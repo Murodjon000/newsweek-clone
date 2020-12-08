@@ -42,3 +42,6 @@
 .info_card {
   border: 1px solid #e6e6e6;
 }
+.op__image {
+  max-width: fit-content;
+}
