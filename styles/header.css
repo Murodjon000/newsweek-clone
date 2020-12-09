@@ -6,6 +6,19 @@ body {
   max-width: 1310px;
 }
 
+.header-links {
+  color: black;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.header-links:hover {
+  text-decoration: none;
+  color: var(--red);
+}
+
 .nav-1 {
   min-height: 50px;
 }
@@ -33,18 +46,6 @@ svg {
 .header__before1 {
   position: relative;
   background-color: white;
-}
-
-.header__before::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  content: "";
-  display: block;
-  width: 90px;
-  background-color: #f72210;
-  border-left: 12px solid white;
-  border-top: 13px solid #f72210;
 }
 
 .header__bottom {
@@ -91,4 +92,42 @@ svg {
 
 .bottom2 > a:hover {
   color: var(--red);
+}
+
+.header-box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-box > * + * {
+  border-left: 1px solid var(--gray-300);
+}
+
+.header-link {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.header-link:hover {
+  text-decoration: none;
+  color: var(--red);
+}
+
+.header__container {
+  padding-right: 150px;
+}
+
+.header__container::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 58px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
 }

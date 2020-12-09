@@ -29,7 +29,7 @@
     <div class="main-wrapper">
       <header>
         <div
-          class="d-flex justify-content-between align-items-center px-2 d-lg-none d-xl-none nav-1 background-red w-100"
+          class="d-flex justify-content-between align-items-center px-2 d-lg-none d-xl-none nav-1 bg-primary w-100"
         >
           <a href="#">
             <svg
@@ -73,7 +73,7 @@
         </div>
         <div class="container-box mx-auto">
           <div
-            class="d-none d-lg-flex d-xl-flex justify-content-between align-items-center px-2 py-2 nav-2 background-red"
+            class="d-none d-lg-flex d-xl-flex justify-content-between align-items-center px-2 py-2 nav-2 bg-primary"
           >
             <div class="d-flex flex-column text-white px-2">
               <div class="d-flex py-2 font-weight-bold">
@@ -109,47 +109,76 @@
               </a>
             </div>
             <div>
-              <button type="button" class="text-uppercase text-white font-weight-bold">
+              <button
+                type="button"
+                class="text-uppercase text-white font-weight-bold"
+              >
                 Login
               </button>
-              <button  type="button" class="sub__button px-2 text-uppercase mx-1">
+              <button
+                type="button"
+                class="sub__button px-2 text-uppercase mx-1"
+              >
                 Subscribe >
               </button>
             </div>
           </div>
-          <nav class="header__before1 d-none d-lg-flex d-xl-flex mx-auto">
-            <div class="w-100">
+
+          <div class="header__before1 d-none d-lg-block mx-auto">
+            <nav
+              class="d-flex align-items-center bg-white header__container position-relative"
+            >
               <div
-                class="header__before d-none d-lg-flex d-xl-flex font-weight-bold header__bottom py-3 align-items-center w-100"
+                class="d-flex align-items-center header-box justify-content-between w-100"
               >
-                <a href="#" class="px-2">U.S.</a>
-                <span>|</span>
-                <a href="#" class="px-2">World</a>
-                <span>|</span>
-                <a href="#" class="px-2">Bussiess</a>
-                <span>|</span>
-                <a href="#" class="px-2">Tech & Science</a>
-                <span>|</span>
-                <a href="#" class="px-2">Culture</a>
-                <span>|</span>
-                <a href="#" class="px-2">Newsgeek</a>
-                <span>|</span>
-                <a href="#" class="px-2">Sports</a>
-                <span>|</span>
-                <a href="#" class="px-2">Health</a>
-                <span>|</span>
-                <a href="#" class="px-2">The-Debate</a>
-                <span>|</span>
-                <a href="#" class="px-2">Vantage</a>
-                <span>|</span>
-                <a href="#" class="px-2">Weather</a>
-                <div class="search d-flex align-items-center">
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  U.S.
+                </a>
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  World
+                </a>
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  Business
+                </a>
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  Tech & Science
+                </a>
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  Culture
+                </a>
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  Newsgeek
+                </a>
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  Sports
+                </a>
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  Health
+                </a>
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  The Debate</a
+                >
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  Vantage
+                </a>
+                <a href="#" class="d-block header-link text-center flex-fill">
+                  Weather
+                </a>
+              </div>
+              <div class="position-absolute search-input">
+                <div class="position-relative">
                   <a href="#" class="px-2 font-weight-normal">Search</a>
-                  <i class="fas fa-search px-2"></i>
+                  <div
+                    class="position-absolute d-flex align-items-center search-icon"
+                  >
+                    <i class="fas fa-search"></i>
+                  </div>
                 </div>
               </div>
-            </div>
-          </nav>
+            </nav>
+          </div>
+
+          <hr class="header__bottom" />
           <nav class="d-none d-lg-flex d-xl-flex mx-auto">
             <div class="bottom2 w-100 py-2">
               <a href="#" class="text-uppercase px-2 text-dark">Trending</a>
@@ -182,10 +211,9 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
-                          href="#"
+                        <span
                           class="after color__red text-uppercase font-weight-bold"
-                          >U.S.</a
+                          >U.S.</span
                         >
                       </div>
                     </div>
@@ -209,10 +237,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__red text-uppercase font-weight-bold"
-                          >POLITICS</a
+                          >POLITICS</span
                         >
                       </div>
                     </div>
@@ -236,10 +264,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__red text-uppercase font-weight-bold"
-                          >News</a
+                          >News</span
                         >
                       </div>
                     </div>
@@ -264,10 +292,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__red text-uppercase font-weight-bold"
-                          >News</a
+                          >News</span
                         >
                       </div>
                     </div>
@@ -294,10 +322,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__blue text-uppercase text-primaryfont-weight-bold"
-                          >SPONSORED INSIGHT</a
+                          >SPONSORED INSIGHT</span
                         >
                       </div>
                     </div>
@@ -324,10 +352,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__blue text-uppercase text-primaryfont-weight-bold"
-                          >SPONSORED INSIGHT</a
+                          >SPONSORED INSIGHT</span
                         >
                       </div>
                     </div>
@@ -354,10 +382,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__blue text-uppercase text-primaryfont-weight-bold"
-                          >SPONSORED INSIGHT</a
+                          >SPONSORED INSIGHT</span
                         >
                       </div>
                     </div>
@@ -384,10 +412,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__blue text-uppercase text-primaryfont-weight-bold"
-                          >SPONSORED INSIGHT</a
+                          >SPONSORED INSIGHT</span
                         >
                       </div>
                     </div>
@@ -414,10 +442,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__blue text-uppercase text-primaryfont-weight-bold"
-                          >SPONSORED INSIGHT</a
+                          >SPONSORED INSIGHT</span
                         >
                       </div>
                     </div>
@@ -444,10 +472,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__blue text-uppercase text-primaryfont-weight-bold"
-                          >SPONSORED INSIGHT</a
+                          >SPONSORED INSIGHT</span
                         >
                       </div>
                     </div>
@@ -474,10 +502,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__blue text-uppercase text-primaryfont-weight-bold"
-                          >SPONSORED INSIGHT</a
+                          >SPONSORED INSIGHT</span
                         >
                       </div>
                     </div>
@@ -504,10 +532,10 @@
                         />
                       </a>
                       <div class="category d-block">
-                        <a
+                        <span
                           href="#"
                           class="after color__blue text-uppercase text-primaryfont-weight-bold"
-                          >SPONSORED INSIGHT</a
+                          >SPONSORED INSIGHT</span
                         >
                       </div>
                     </div>
@@ -527,10 +555,8 @@
               </div>
             </div>
             <div class="col-12 col-md-7 p-3 bg-white">
-              <!--Main Column-->
               <div class="sticky">
                 <div class="bg-white">
-                  <!--Top story-->
                   <div class="card_header pb-2 font-weight-bold">
                     <h1 class="text-uppercase">Top Story</h1>
                   </div>
@@ -543,10 +569,10 @@
                       />
                     </a>
                     <div class="category d-block">
-                      <a
+                      <span
                         href="#"
-                        class="after color__red text-uppercase font-weight-bold"
-                        >U.S.</a
+                        class="after color__red text-uppercase font-weight-bolder"
+                        >U.S.</span
                       >
                     </div>
                   </div>
@@ -561,7 +587,6 @@
                   </p>
                 </div>
                 <div class="mt-3">
-                  <!--My turn-->
                   <div>
                     <span class="d-block text-uppercase mb-2"
                       ><a
@@ -678,13 +703,11 @@
                 </div>
 
                 <div>
-                  <!--More Stories-->
                   <span
                     class="d-block text-uppercase text-graylight font-weight-bold mb-2"
                     >more stories</span
                   >
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 1-->
                     <img
                       class="d-block float-left mr-3"
                       src="https://d.newsweek.com/en/full/1681801/minnesota-covid-19-lockdown-protest-december-2020.jpg?w=95&h=95&f=57472e2466a371a731568f17a1daa485"
@@ -704,7 +727,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 2-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1681879/brandon-bernard.jpg?w=95&h=95&f=1c656e5df58d020d99236652e718f29e"
@@ -723,7 +745,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 3-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1681848/david-perdue.jpg?w=95&h=95&f=89caa6adf543a62647783fec368340e8"
@@ -742,7 +763,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 4-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1682106/new-york-city-covid-19-indoor-dining.jpg?w=95&h=95&f=b0a4ecfed01e38c62596abc05c651c2e"
@@ -761,7 +781,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 5-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1681803/los-angeles.jpg?w=95&h=95&f=4928c03d73cf9d11295001a6ae841c21"
@@ -780,7 +799,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 6-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1681705/dr-jane-m-orient.png?w=95&h=95&f=1ab2ffa017f687e30ff91f008e388668"
@@ -800,7 +818,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 7-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1682090/taiwan-health-virus-people-take-photos-rooms.jpg?w=95&h=95&f=fa41981103187612f07787330c3ee474"
@@ -818,7 +835,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 8-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1681644/rudy-giuliani-michigan-hearing.jpg?w=95&h=95&f=e58c6acf228b10a0a643e795136542e5"
@@ -837,7 +853,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 9-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1681630/fox-news-sunday-chris-wallace.png?w=95&h=95&f=b1592b970beef9ad0823027efb6f1d8b"
@@ -857,7 +872,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 10-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1682068/matthew-mcconaughey.jpg?w=95&h=95&f=ea632451972b05425c949fab25bde743"
@@ -874,7 +888,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 11-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1681632/president-trump-makes-statement-vaccine-development.jpg?w=95&h=95&f=ddd1017aec88111ad85ad7ccfb3ea961"
@@ -894,7 +907,6 @@
                     </p>
                   </div>
                   <div class="clearfix mt-3 py-3 border-top">
-                    <!--Storie 12-->
                     <img
                       class="float-left mr-3"
                       src="https://d.newsweek.com/en/full/1681586/california-governor-gavin-newsom.jpg?w=95&h=95&f=f91a02805f789d2ca55a0b9cb8d46850"
@@ -918,14 +930,12 @@
             </div>
           </div>
           <div class="bg-white p-3 mt-4 mt-md-0 border-bottom col-12 col-lg-3">
-            <!--Debate Column-->
             <div class="sticky">
               <span
                 class="d-block text-uppercase text-graylight font-weight-bold mb-2"
                 >the debate</span
               >
               <div class="debate-card">
-                <!--The debate-->
                 <div class="d-flex align-items-center pt-3 pb-1">
                   <div>
                     <img
@@ -984,12 +994,8 @@
               </div>
 
               <div>
-                <!--Opinions-->
                 <div class="border-bottom">
-                  <!--Opinion card-->
-
                   <div class="d-flex align-items-center py-3 border-bottom">
-                    <!--Opinion1-->
                     <div>
                       <img
                         class="op__image"
@@ -1015,7 +1021,6 @@
                 </div>
 
                 <div class="d-flex align-items-center py-3 border-bottom">
-                  <!--Opinion2-->
                   <div>
                     <img
                       class="op__image"
@@ -1039,7 +1044,6 @@
                 </div>
 
                 <div class="d-flex align-items-center py-3 border-bottom">
-                  <!--Opinion3-->
                   <div>
                     <img
                       class="op__image"
@@ -1063,7 +1067,6 @@
                 </div>
 
                 <div class="d-flex align-items-center py-3 border-bottom">
-                  <!--Opinion4-->
                   <div>
                     <img
                       class="op__image"
@@ -1088,7 +1091,6 @@
                 </div>
 
                 <div class="d-flex align-items-center py-3 border-bottom">
-                  <!--opinion5-->
                   <div>
                     <img
                       class="op__image"
@@ -1112,7 +1114,6 @@
                 </div>
 
                 <div class="d-flex align-items-center py-3 border-bottom">
-                  <!--Opinion6-->
                   <div>
                     <img
                       class="op__image"
@@ -1136,7 +1137,6 @@
                 </div>
 
                 <div class="d-flex align-items-center py-3">
-                  <!--Opinion7-->
                   <div>
                     <img
                       class="op__image"
@@ -1164,12 +1164,11 @@
                 class="col-md-4 p-0 offset-md-4 col-lg-12 offset-lg-0 bg-white"
               >
                 <div class="mt-3">
-                  <!--Sponsored Insight-->
                   <div class="card">
                     <div class="position-relative">
                       <img
                         src="https://d.newsweek.com/en/full/1681099/netherlands-online-module-amsterdam-photo.jpg?w=500&h=333&l=50&t=51&f=3610bf0950907bb346fc123edc405193"
-                        class="card-img-top no-border-radius"
+                        class="card-img-top none-radius"
                         alt="..."
                       />
                       <div
@@ -1195,10 +1194,9 @@
                 </div>
 
                 <div class="mt-4 p-4 border">
-                  <!--Sign Up form-->
                   <div class="d-flex align-items-center">
                     <img
-                      class="mr-2 bg-custom-primary signup-img"
+                      class="mr-2 bg-primary signup-img"
                       src="https://g.newsweek.com/www/images/logo-n1.svg"
                       alt="newsweek"
                     />
@@ -1208,12 +1206,12 @@
                   </div>
                   <form class="mt-3">
                     <input
-                      class="custom-input border"
+                      class="input-box border"
                       type="email"
                       placeholder="Email adress"
                     />
                     <input
-                      class="mt-2 p-1 signup-btn bg-custom-primary text-white font-weight-bold"
+                      class="mt-2 p-1 signup-btn bg-primary text-white font-weight-bold"
                       type="submit"
                       value="FREE SIGN UP >"
                     />
@@ -1221,9 +1219,7 @@
                 </div>
 
                 <div>
-                  <!--More sponsored inshights-->
                   <div class="mt-4">
-                    <!--Sponsored Insight-->
                     <div class="card">
                       <div class="position-relative">
                         <img
@@ -1317,7 +1313,6 @@
                     </div>
                   </div>
                   <div class="mt-4">
-                    <!--Sponsored Insight-->
                     <div class="card">
                       <div class="position-relative">
                         <img
@@ -1447,9 +1442,8 @@
         <div
           class="d-flex justify-content-center align-items-center mt-2 border-bottom p-2"
         >
-          <!--In the magazine header-->
           <img
-            class="bg-custom-primary signup-img mr-2"
+            class="bg-primary signup-img mr-2"
             src="https://g.newsweek.com/www/images/logo-n1.svg"
             alt="newsweek"
           />
@@ -1472,7 +1466,7 @@
               <div class="card-body p-0 mt-1">
                 <a
                   href="#"
-                  class="btn btn-block btn-light text-base text-uppercase"
+                  class="btn btn-block btn-light text-n text-uppercase"
                 >
                   see all features >
                 </a>
@@ -1667,7 +1661,7 @@
           class="d-flex justify-content-center align-items-center mt-2 border-bottom p-2"
         >
           <img
-            class="bg-custom-primary signup-img mr-2"
+            class="bg-primary signup-img mr-2"
             src="https://g.newsweek.com/www/images/logo-n1.svg"
             alt="newsweek"
           />
@@ -1893,9 +1887,9 @@
               <div class="col-md-4">
                 <div class="card none-border">
                   <img
-                    src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                    src="https://d.newsweek.com/en/full/1682961/donald-trump-twitter-10-most-liked-tweets.jpg?w=397&h=265&f=2c28e0373b7ff33848a3a360f7007c7f"
                     class="card-img-top no-border-radius"
-                    alt="..."
+                    alt="trump"
                   />
                   <div class="card-body px-0">
                     <a
@@ -1903,8 +1897,8 @@
                       href="#"
                     >
                       <p class="card-text text-lg mb-0">
-                        Top 20 Quotes From Chuck Yeager, First Man to Break The
-                        Sound Barrier
+                        Russia Calls Israel 'the Problem' in Middle East,
+                        Defends Iran and Allies
                       </p>
                     </a>
                   </div>
@@ -1914,9 +1908,9 @@
               <div class="col-md-4">
                 <div class="card none-border">
                   <img
-                    src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                    src="https://d.newsweek.com/en/full/1682762/russia-putin-iran-rouhani-armenia.jpg?w=397&h=265&f=c78dc4cfc4e1917614ecd3bd78d6d418"
                     class="card-img-top no-border-radius"
-                    alt="..."
+                    alt="Russia Calls Israel 'the Problem' in Middle East, Defends Iran and Allies"
                   />
                   <div class="card-body px-0">
                     <a
@@ -1924,8 +1918,8 @@
                       href="#"
                     >
                       <p class="card-text text-lg mb-0">
-                        Top 20 Quotes From Chuck Yeager, First Man to Break The
-                        Sound Barrier
+                        Russia Calls Israel 'the Problem' in Middle East,
+                        Defends Iran and Allies
                       </p>
                     </a>
                   </div>
@@ -1937,9 +1931,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -1948,8 +1942,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -1961,9 +1954,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -1972,8 +1965,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -1984,9 +1976,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -1995,8 +1987,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -2014,9 +2005,9 @@
               <div class="col-md-4">
                 <div class="card none-border">
                   <img
-                    src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                    src="https://d.newsweek.com/en/full/1682961/donald-trump-twitter-10-most-liked-tweets.jpg?w=397&h=265&f=2c28e0373b7ff33848a3a360f7007c7f"
                     class="card-img-top no-border-radius"
-                    alt="..."
+                    alt="trump"
                   />
                   <div class="card-body px-0">
                     <a
@@ -2024,8 +2015,8 @@
                       href="#"
                     >
                       <p class="card-text text-lg mb-0">
-                        Top 20 Quotes From Chuck Yeager, First Man to Break The
-                        Sound Barrier
+                        Russia Calls Israel 'the Problem' in Middle East,
+                        Defends Iran and Allies
                       </p>
                     </a>
                   </div>
@@ -2035,9 +2026,9 @@
               <div class="col-md-4">
                 <div class="card none-border">
                   <img
-                    src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                    src="https://d.newsweek.com/en/full/1682762/russia-putin-iran-rouhani-armenia.jpg?w=397&h=265&f=c78dc4cfc4e1917614ecd3bd78d6d418"
                     class="card-img-top no-border-radius"
-                    alt="..."
+                    alt="Russia Calls Israel 'the Problem' in Middle East, Defends Iran and Allies"
                   />
                   <div class="card-body px-0">
                     <a
@@ -2045,8 +2036,8 @@
                       href="#"
                     >
                       <p class="card-text text-lg mb-0">
-                        Top 20 Quotes From Chuck Yeager, First Man to Break The
-                        Sound Barrier
+                        Russia Calls Israel 'the Problem' in Middle East,
+                        Defends Iran and Allies
                       </p>
                     </a>
                   </div>
@@ -2058,9 +2049,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -2069,8 +2060,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -2082,9 +2072,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -2093,8 +2083,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -2105,9 +2094,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -2116,8 +2105,122 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section">
+            <h3 class="section-title mb-2">U.s.</h3>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card none-border">
+                  <img
+                    src="https://d.newsweek.com/en/full/1682961/donald-trump-twitter-10-most-liked-tweets.jpg?w=397&h=265&f=2c28e0373b7ff33848a3a360f7007c7f"
+                    class="card-img-top no-border-radius"
+                    alt="trump"
+                  />
+                  <div class="card-body px-0">
+                    <a
+                      class="hover:underline-primary text-black hover:underline-primary"
+                      href="#"
+                    >
+                      <p class="card-text text-lg mb-0">
+                        Russia Calls Israel 'the Problem' in Middle East,
+                        Defends Iran and Allies
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card none-border">
+                  <img
+                    src="https://d.newsweek.com/en/full/1682762/russia-putin-iran-rouhani-armenia.jpg?w=397&h=265&f=c78dc4cfc4e1917614ecd3bd78d6d418"
+                    class="card-img-top no-border-radius"
+                    alt="Russia Calls Israel 'the Problem' in Middle East, Defends Iran and Allies"
+                  />
+                  <div class="card-body px-0">
+                    <a
+                      class="hover:underline-primary text-black hover:underline-primary"
+                      href="#"
+                    >
+                      <p class="card-text text-lg mb-0">
+                        Russia Calls Israel 'the Problem' in Middle East,
+                        Defends Iran and Allies
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card none-border">
+                  <div class="row">
+                    <div class="col-5 col-md-6 col-lg-4">
+                      <img
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
+                        class="card-img-top no-border-radius op__image"
+                        alt="COVID Deaths Are Highest in These 7 States"
+                      />
+                    </div>
+                    <div class="col-7 col-md-6 col-lg-8 pl-0">
+                      <div class="card-body p-0">
+                        <a
+                          href="#"
+                          class="text-black font-weight-bolder hover:underline-primary"
+                        >
+                          COVID Deaths Are Highest in These 7 States
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr class="my-3 border-gray" />
+
+                <div class="card none-border">
+                  <div class="row">
+                    <div class="col-5 col-md-6 col-lg-4">
+                      <img
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
+                        class="card-img-top no-border-radius op__image"
+                        alt="COVID Deaths Are Highest in These 7 States"
+                      />
+                    </div>
+                    <div class="col-7 col-md-6 col-lg-8 pl-0">
+                      <div class="card-body p-0">
+                        <a
+                          href="#"
+                          class="text-black font-weight-bolder hover:underline-primary"
+                        >
+                          COVID Deaths Are Highest in These 7 States
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr class="my-3 border-gray" />
+                <div class="card none-border">
+                  <div class="row">
+                    <div class="col-5 col-md-6 col-lg-4">
+                      <img
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
+                        class="card-img-top no-border-radius op__image"
+                        alt="COVID Deaths Are Highest in These 7 States"
+                      />
+                    </div>
+                    <div class="col-7 col-md-6 col-lg-8 pl-0">
+                      <div class="card-body p-0">
+                        <a
+                          href="#"
+                          class="text-black font-weight-bolder hover:underline-primary"
+                        >
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -2133,9 +2236,9 @@
               <div class="col-md-4">
                 <div class="card none-border">
                   <img
-                    src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                    src="https://d.newsweek.com/en/full/1682961/donald-trump-twitter-10-most-liked-tweets.jpg?w=397&h=265&f=2c28e0373b7ff33848a3a360f7007c7f"
                     class="card-img-top no-border-radius"
-                    alt="..."
+                    alt="trump"
                   />
                   <div class="card-body px-0">
                     <a
@@ -2143,8 +2246,8 @@
                       href="#"
                     >
                       <p class="card-text text-lg mb-0">
-                        Top 20 Quotes From Chuck Yeager, First Man to Break The
-                        Sound Barrier
+                        Russia Calls Israel 'the Problem' in Middle East,
+                        Defends Iran and Allies
                       </p>
                     </a>
                   </div>
@@ -2154,9 +2257,9 @@
               <div class="col-md-4">
                 <div class="card none-border">
                   <img
-                    src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                    src="https://d.newsweek.com/en/full/1682762/russia-putin-iran-rouhani-armenia.jpg?w=397&h=265&f=c78dc4cfc4e1917614ecd3bd78d6d418"
                     class="card-img-top no-border-radius"
-                    alt="..."
+                    alt="Russia Calls Israel 'the Problem' in Middle East, Defends Iran and Allies"
                   />
                   <div class="card-body px-0">
                     <a
@@ -2164,8 +2267,8 @@
                       href="#"
                     >
                       <p class="card-text text-lg mb-0">
-                        Top 20 Quotes From Chuck Yeager, First Man to Break The
-                        Sound Barrier
+                        Russia Calls Israel 'the Problem' in Middle East,
+                        Defends Iran and Allies
                       </p>
                     </a>
                   </div>
@@ -2177,9 +2280,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -2188,8 +2291,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -2201,9 +2303,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -2212,8 +2314,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -2224,9 +2325,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -2235,8 +2336,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -2245,16 +2345,15 @@
               </div>
             </div>
           </section>
-
           <section class="section">
             <h3 class="section-title mb-2">U.s.</h3>
             <div class="row">
               <div class="col-md-4">
                 <div class="card none-border">
                   <img
-                    src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                    src="https://d.newsweek.com/en/full/1682961/donald-trump-twitter-10-most-liked-tweets.jpg?w=397&h=265&f=2c28e0373b7ff33848a3a360f7007c7f"
                     class="card-img-top no-border-radius"
-                    alt="..."
+                    alt="trump"
                   />
                   <div class="card-body px-0">
                     <a
@@ -2262,8 +2361,8 @@
                       href="#"
                     >
                       <p class="card-text text-lg mb-0">
-                        Top 20 Quotes From Chuck Yeager, First Man to Break The
-                        Sound Barrier
+                        Russia Calls Israel 'the Problem' in Middle East,
+                        Defends Iran and Allies
                       </p>
                     </a>
                   </div>
@@ -2273,9 +2372,9 @@
               <div class="col-md-4">
                 <div class="card none-border">
                   <img
-                    src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                    src="https://d.newsweek.com/en/full/1682762/russia-putin-iran-rouhani-armenia.jpg?w=397&h=265&f=c78dc4cfc4e1917614ecd3bd78d6d418"
                     class="card-img-top no-border-radius"
-                    alt="..."
+                    alt="Russia Calls Israel 'the Problem' in Middle East, Defends Iran and Allies"
                   />
                   <div class="card-body px-0">
                     <a
@@ -2283,8 +2382,8 @@
                       href="#"
                     >
                       <p class="card-text text-lg mb-0">
-                        Top 20 Quotes From Chuck Yeager, First Man to Break The
-                        Sound Barrier
+                        Russia Calls Israel 'the Problem' in Middle East,
+                        Defends Iran and Allies
                       </p>
                     </a>
                   </div>
@@ -2296,9 +2395,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -2307,8 +2406,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -2320,9 +2418,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -2331,8 +2429,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -2343,9 +2440,9 @@
                   <div class="row">
                     <div class="col-5 col-md-6 col-lg-4">
                       <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
+                        src="https://d.newsweek.com/en/full/1682821/guy-fieri-fundraising-congress-host.jpg?w=397&h=265&f=7a148416bcdf45b0f4246bcafad7514f"
                         class="card-img-top no-border-radius op__image"
-                        alt="..."
+                        alt="COVID Deaths Are Highest in These 7 States"
                       />
                     </div>
                     <div class="col-7 col-md-6 col-lg-8 pl-0">
@@ -2354,127 +2451,7 @@
                           href="#"
                           class="text-black font-weight-bolder hover:underline-primary"
                         >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="section">
-            <h3 class="section-title mb-2">U.s.</h3>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card none-border">
-                  <img
-                    src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
-                    class="card-img-top no-border-radius"
-                    alt="..."
-                  />
-                  <div class="card-body px-0">
-                    <a
-                      class="hover:underline-primary text-black hover:underline-primary"
-                      href="#"
-                    >
-                      <p class="card-text text-lg mb-0">
-                        Top 20 Quotes From Chuck Yeager, First Man to Break The
-                        Sound Barrier
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card none-border">
-                  <img
-                    src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
-                    class="card-img-top no-border-radius"
-                    alt="..."
-                  />
-                  <div class="card-body px-0">
-                    <a
-                      class="hover:underline-primary text-black hover:underline-primary"
-                      href="#"
-                    >
-                      <p class="card-text text-lg mb-0">
-                        Top 20 Quotes From Chuck Yeager, First Man to Break The
-                        Sound Barrier
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card none-border">
-                  <div class="row">
-                    <div class="col-5 col-md-6 col-lg-4">
-                      <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
-                        class="card-img-top no-border-radius op__image"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="col-7 col-md-6 col-lg-8 pl-0">
-                      <div class="card-body p-0">
-                        <a
-                          href="#"
-                          class="text-black font-weight-bolder hover:underline-primary"
-                        >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <hr class="my-3 border-gray" />
-
-                <div class="card none-border">
-                  <div class="row">
-                    <div class="col-5 col-md-6 col-lg-4">
-                      <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
-                        class="card-img-top no-border-radius op__image"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="col-7 col-md-6 col-lg-8 pl-0">
-                      <div class="card-body p-0">
-                        <a
-                          href="#"
-                          class="text-black font-weight-bolder hover:underline-primary"
-                        >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <hr class="my-3 border-gray" />
-                <div class="card none-border">
-                  <div class="row">
-                    <div class="col-5 col-md-6 col-lg-4">
-                      <img
-                        src="https://d.newsweek.com/en/full/1682356/chuck-yeager-famous-quotes.jpg?w=397&h=265&f=bf856db4e2d78fdbac538bd02c037297"
-                        class="card-img-top no-border-radius op__image"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="col-7 col-md-6 col-lg-8 pl-0">
-                      <div class="card-body p-0">
-                        <a
-                          href="#"
-                          class="text-black font-weight-bolder hover:underline-primary"
-                        >
-                          Progressive Opposition Threatens Stimulus Bill:
-                          'Dollar Amount Too Low'
+                          COVID Deaths Are Highest in These 7 States
                         </a>
                       </div>
                     </div>
@@ -2493,7 +2470,7 @@
               </span>
             </div>
 
-            <div class="bg-custom-graylighter none-border card p-4">
+            <div class="bg-graylighter none-border card p-4">
               <div class="row">
                 <div
                   class="col-md-4 d-flex justify-content-center align-items-center position-relative"
@@ -2524,7 +2501,7 @@
                         Perfect for You!
                       </p>
                       <button
-                        class="mt-2 bg-custom-primary btn text-white font-weight-bold"
+                        class="mt-2 bg-primary btn text-white font-weight-bold"
                         type="button"
                       >
                         SUBSCRIBE >
@@ -2567,12 +2544,12 @@
                       </p>
                       <form class="d-flex d-lg-block mt-3">
                         <input
-                          class="custom-input border"
+                          class="input-box border"
                           type="email"
                           placeholder="Email adress"
                         />
                         <input
-                          class="mt-lg-2 p-1 signup-btn bg-custom-primary text-white font-weight-bold"
+                          class="mt-lg-2 p-1 signup-btn bg-primary text-white font-weight-bold"
                           type="submit"
                           value="FREE SIGN UP >"
                         />
@@ -2647,7 +2624,7 @@
             </div>
           </div>
           <div>
-            <div class="d-flex flex-wrap">
+            <div class="d-flex flex-wrap left">
               <a class="footer-links" href="#">About Us</a>
               <a class="footer-links" href="#">Corrections</a>
               <a class="footer-links" href="#">Contact Us</a>

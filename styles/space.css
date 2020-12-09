@@ -3,11 +3,3 @@
     margin-top: 1rem;
   }
 }
-
-@media only screen and (min-width: 991px) {
-  .lg\:container-full {
-    max-width: 1310px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}

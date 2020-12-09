@@ -1,7 +1,3 @@
-.background-red {
-  background-color: var(--red);
-}
-
 .background-yellow {
   background-color: var(--yellow);
 }
@@ -12,16 +8,12 @@
   }
 }
 
-.bg-custom-primary {
-  background-color: #f72210;
+.bg-primary {
+  background-color: #f72210 !important;
 }
 
-.bg-custom-graylighter {
-  background-color: #f4f5f6;
-}
-
-.bg-custom-black {
-  background-color: black;
+.bg-graylighter {
+  background-color: var(--light-gray);
 }
 
 .hover\:text-decoration-none:hover {
