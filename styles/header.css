@@ -9,6 +9,7 @@ body {
 .nav-1 {
   min-height: 50px;
 }
+
 .nav-2 {
   min-height: 95px;
   position: relative;
@@ -57,22 +58,10 @@ svg {
   text-decoration: none;
 }
 
-.header__bottom > a:hover {
-  color: var(--red);
-}
-
-.header__bottom > span {
-  color: var(--gray-200);
-}
-
 .search > a {
   font-size: 0.9rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.55);
-}
-
-.search > i {
-  font-size: 1rem;
 }
 
 .bottom2 > a {
@@ -82,6 +71,19 @@ svg {
   text-decoration: none;
   font-weight: 500;
 }
+
+.header__bottom > a:hover {
+  color: var(--red);
+}
+
+.header__bottom > span {
+  color: var(--gray-200);
+}
+
+.search > i {
+  font-size: 1rem;
+}
+
 .bottom2 {
   background-color: white;
   border-bottom: 1px solid var(--gray-300);

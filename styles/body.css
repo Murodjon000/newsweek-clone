@@ -5,6 +5,7 @@
 .image_container {
   position: relative;
 }
+
 .category > a {
   position: absolute;
   bottom: 0;
@@ -18,17 +19,19 @@
 .card_1 p {
   font-size: 12px;
 }
+
+.anchor_text {
+  font-size: 1.2rem;
+}
+
 .card_1 .anchor_text {
   text-decoration: none;
   color: black;
 }
+
 .card_1 .anchor_text:hover {
   text-decoration: underline;
   text-decoration-color: var(--red);
-}
-
-.anchor_text {
-  font-size: 1.2rem;
 }
 
 .debate__middle {
