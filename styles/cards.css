@@ -44,7 +44,7 @@
 }
 
 .op__image {
-  max-width: fit-content;
+  width: 100%;
 }
 
 .bottom__tag > a {
