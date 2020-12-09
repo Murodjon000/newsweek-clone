@@ -21,6 +21,10 @@ body {
   cursor: pointer;
 }
 
+p {
+  margin: 0;
+}
+
 .card_1 p {
   font-size: 12px;
 }
@@ -64,10 +68,6 @@ body {
 
 hr {
   border-color: #f4f5f7;
-}
-
-p {
-  margin: 0;
 }
 
 a:hover {
