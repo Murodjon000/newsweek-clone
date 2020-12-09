@@ -1,11 +1,3 @@
-.debate {
-  position: relative;
-}
-
-.debate-card {
-  position: relative;
-}
-
 .line__deco::before {
   content: "";
   position: absolute;
@@ -71,14 +63,6 @@
 .card-box.card-box-primary {
   background-color: #f72210;
   color: #fff;
-}
-
-.w-9 {
-  width: 36px;
-}
-
-.h-9 {
-  height: 36px;
 }
 
 .input-box {

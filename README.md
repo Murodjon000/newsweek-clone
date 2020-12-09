@@ -18,10 +18,10 @@ The website is fully responsive with the help of three `media query` `breakpoint
 
 To get a local copy up and running follow these simple example steps.
 
-- `git clone https://github.com/patrick-angelos/Abeid-Patrick`
-- `cd Abeid-Patrick`
-- `git checkout -b Abeid-Patrick`
-- `git pull origin Abeid-Patrick`
+- `git clone https://github.com/Murodjon000/newsweek-clone.git`
+- `cd newsweek-clone`
+- `git checkout -b newsweek`
+- `git pull origin newsweek`
 - If you have vscode `live-server` installed, run it and open `localhost:3000`
 
 ## Authors

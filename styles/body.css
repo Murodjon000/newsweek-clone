@@ -17,7 +17,7 @@ body {
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 1;
-  text-decoration: none !important;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -41,29 +41,6 @@ p {
 .card_1 .anchor_text:hover {
   text-decoration: underline;
   text-decoration-color: var(--red);
-}
-
-.debate__middle {
-  border-top: 4px solid var(--border-gray);
-  padding-top: 10px;
-  padding-bottom: 4px;
-}
-
-.debate__middle1 {
-  border-bottom: 4px solid var(--border-gray);
-  padding-top: 10px;
-  padding-bottom: 4px;
-}
-
-.opinion__middle {
-  padding-top: 10px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid var(--border-gray);
-}
-
-.opinion__middle1 {
-  padding-top: 10px;
-  padding-bottom: 4px;
 }
 
 hr {
