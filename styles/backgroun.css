@@ -10,3 +10,23 @@
     background-color: white;
   }
 }
+
+.bg-custom-primary {
+  background-color: #f72210;
+}
+
+.bg-custom-graylighter {
+  background-color: #f4f5f6;
+}
+.bg-custom-black {
+  background-color: black;
+}
+
+.hover\:text-decoration-none:hover {
+  text-decoration: none;
+}
+
+.hover\:underline-primary:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}

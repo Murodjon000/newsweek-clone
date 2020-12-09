@@ -2,10 +2,6 @@
   color: var(--gray-400);
 }
 
-.full-with {
-  max-width: 1310px;
-}
-
 .image_container {
   position: relative;
 }

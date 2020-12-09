@@ -2,6 +2,10 @@
   color: rgba(3, 3, 3, 0.5);
 }
 
+.text-graylight {
+  color: #807f84;
+}
+
 .color__blue {
   text-decoration: none;
   color: #3581f4;
@@ -13,4 +17,14 @@
 
 .text-sm {
   font-size: 12px;
+}
+
+.text-lg {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.currentColor {
+  fill: var(--red);
 }

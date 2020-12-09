@@ -1,0 +1,11 @@
+.section {
+  border-top: 1px solid #d9d9d9;
+  padding: 16px 0;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #f72210;
+  text-transform: uppercase;
+}
