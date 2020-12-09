@@ -57,53 +57,11 @@
   margin-top: -30px;
 }
 
-.logo {
-  flex: none;
-  display: block;
-  width: 29px;
-  height: 28px;
-  background:
-    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
-    no-repeat #f72210;
-  margin-right: 10px;
-}
-
-.sign {
-  border: 1px solid #e5e5e5;
-  background-color: #f4f5f6;
-  max-width: 320px;
-  margin: 0 auto 30px;
-}
-
-#email {
-  width: 100%;
-  height: 32px;
-  line-height: 32px;
-  border: 1px solid #e0e1e1;
-  margin-bottom: 10px;
-  text-indent: 6px;
-}
-
-.form__button {
-  background-color: #f61602;
-  width: 100%;
-  height: 32px;
-  line-height: 32px;
-}
-
 .card-box {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 2px 10px;
   color: #f72210;
   font-weight: bold;
-}
-
-.card-label-custom {
-  display: inline-block;
-  background-color: #f72210;
-  font-weight: bold;
-  padding: 2px 10px;
-  color: white;
 }
 
 .card-box.card-box-secondary {
@@ -123,7 +81,7 @@
   height: 36px;
 }
 
-.custom-input {
+.input-box {
   border: 1px solid transparent;
   outline: none;
   box-sizing: border-box;
@@ -138,7 +96,7 @@
   width: 100px;
 }
 
-.custom-search-icon {
+.search-icon {
   top: 0;
   bottom: 0;
   right: 0;
@@ -148,4 +106,8 @@
 .bottom-left {
   bottom: 0;
   left: 0;
+}
+
+.after {
+  font-weight: 700;
 }
