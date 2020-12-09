@@ -2,6 +2,8 @@
 
 # A clone of the Newsweek Home Page
 
+## Screenshot
+
 ![screenshot](./images/screenshot.png)
 
 ## Built With
@@ -24,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Murodjon**
+👤 **Murodjon000**
 
 - GitHub: [@Murodjon 0103](https://github.com/Murodjon000)
 
