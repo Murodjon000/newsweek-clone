@@ -13,7 +13,7 @@
   margin-bottom: -8px;
   z-index: 1;
   @include rectangle;
-  color: $white-300;
+  color: $white-300 !important;
   border-radius: 50%;
   text-align: center;
 }
@@ -45,7 +45,7 @@
     color: #3581f4;
   }
   &.card-box-primary {
-    background-color: var(--red);
+    background-color: $red;
     color: #fff;
   }
 }

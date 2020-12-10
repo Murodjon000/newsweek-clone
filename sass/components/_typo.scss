@@ -1,0 +1,42 @@
+.text {
+  &-xs {
+    font-size: 13px;
+  }
+  &-sm {
+    font-size: 12px;
+  }
+  &-lg {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 22px;
+  }
+  &-n {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+  }
+  &-gray {
+    color: rgba(3, 3, 3, 0.5);
+  }
+  &-graylight {
+    color: #807f84;
+  }
+}
+
+.color__blue {
+  text-decoration: none;
+  color: #3581f4;
+}
+
+.color__red {
+  color: $red;
+}
+
+.currentColor {
+  fill: $red;
+}
+
+.underline-primary:hover {
+  text-decoration: underline;
+  text-decoration-color: $red;
+}
