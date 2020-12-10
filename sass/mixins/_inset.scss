@@ -1,0 +1,28 @@
+@mixin content-b {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: $border-gray;
+  height: 1px;
+  left: 0;
+  right: 0;
+}
+
+@mixin side-3 {
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@mixin bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+@mixin content-c {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+}

@@ -22,5 +22,5 @@
 
 .hover\:underline-primary:hover {
   text-decoration: underline;
-  text-decoration-color: #f72210;
+  text-decoration-color: var(--red);
 }

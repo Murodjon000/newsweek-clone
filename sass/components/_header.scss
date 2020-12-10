@@ -1,0 +1,93 @@
+body {
+  background-color: $gray-1000;
+}
+
+.nav-1 {
+  min-height: 50px;
+}
+
+.nav-2 {
+  min-height: 95px;
+}
+
+.icon {
+  font-size: 1.1rem;
+  color: #f2f2f2;
+}
+
+.sub__button {
+  background-color: $yellow;
+  border-radius: 24px;
+  font-weight: 900;
+}
+
+svg {
+  fill: white;
+}
+
+.search {
+  > a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.55);
+  }
+
+  > i {
+    font-size: 1rem;
+  }
+}
+
+.bottom2 > a {
+  font-size: 16px;
+  line-height: 24px;
+  color: $gray-400;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header__bottom > a:hover {
+  color: $red;
+}
+
+.header__bottom > span {
+  color: $gray-200;
+}
+
+.bottom2 {
+  background-color: white;
+  border-bottom: 1px solid $gray-300;
+  > a:hover {
+    color: $red;
+  }
+}
+
+.header-box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  > * + * {
+    border-left: 1px solid $gray-300;
+  }
+}
+
+.header-link {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+    color: $red;
+  }
+}
+
+.header__container {
+  padding-right: 150px;
+  &::before {
+    @include content-c;
+    width: 58px;
+    background-color: $red;
+    border-left: 12px solid white;
+    border-top: 13px solid $red;
+  }
+}

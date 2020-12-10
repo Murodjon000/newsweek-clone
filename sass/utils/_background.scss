@@ -1,0 +1,11 @@
+$background: (
+  bg-primary-red: $red,
+  background-yellow: $yellow,
+  bg-graylighter: $light-gray,
+);
+
+@each $prop, $var in $background {
+  .#{$prop} {
+    background-color: $var;
+  }
+}

@@ -93,7 +93,7 @@ svg {
   content: "";
   display: block;
   width: 58px;
-  background-color: #f72210;
+  background-color: var(--red);
   border-left: 12px solid white;
-  border-top: 13px solid #f72210;
+  border-top: 13px solid var(--red);
 }
