@@ -6,7 +6,7 @@ A clone of [NewsWeek](https://www.newsweek.com/)'s home page. The website is bui
 
 The website is fully responsive with the help of three `media query` `breakpoints` (the default being the smaller viewport), namely: `< 768px`, `>= 768px`, `>= 1024px`, `>= 1280px`.
 
-![Screenshot of newsweek clone](./images/screenshot.png)
+![Screenshot of newsweek clone](./images\newsweek-min.png)
 
 ## Built With
 
